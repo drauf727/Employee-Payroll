@@ -1,9 +1,10 @@
 // Get a reference to the #add-employees-btn element
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
+
 // Collect employee data
+const employees = [];
 const collectEmployees = function () {
-  const employees = [];
   const firstName = prompt("First Name");
   const lastName = prompt("Last Name");
   const salary = parseInt(prompt("Salary"));
